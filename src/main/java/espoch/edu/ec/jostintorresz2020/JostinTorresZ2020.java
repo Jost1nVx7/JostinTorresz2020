@@ -47,13 +47,13 @@ public class JostinTorresZ2020 {
             case 1:
                 float suma = 0;
                 System.out.println("Opcion 1: ");
-                for (int j = 0; i <= 7; i++) {
+                for (int j = 0; j <= 7; i++) {
                     suma = juego[i] + suma;
                 }
                 totalPuntos = suma;
                 System.out.println("La puntaje total es: " + totalPuntos);
                 break;
-            case 2:
+        default:
 
         }
     }
